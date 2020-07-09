@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.javierbarahona.sistema.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnMasMenos" layoutX="26.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+/-">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnCero" layoutX="90.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="0">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnPunto" layoutX="155.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text=".">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnUno" layoutX="26.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnIgual" layoutX="222.0" layoutY="388.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="=">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnDos" layoutX="90.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="2">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnTres" layoutX="155.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="3">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnCuatro" layoutX="26.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="4">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnCinco" layoutX="90.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="5">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnSeis" layoutX="155.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="6">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnSiete" layoutX="26.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="7">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnSuma" layoutX="222.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="+">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnResta" layoutX="222.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="-">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnOcho" layoutX="90.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="8">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnNueve" layoutX="155.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="9">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnMultiplicacion" layoutX="222.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="*">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnCE" layoutX="26.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="CE">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnC" layoutX="90.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="C">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnUnoX" layoutX="155.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="1/x">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnDivision" layoutX="222.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="/">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnRaiz" layoutX="288.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="117.0" prefWidth="50.0" text="√">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnPorcentaje" layoutX="288.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" text="\%">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button fx:id="btnPotencia" layoutX="288.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="117.0" prefWidth="50.0" text="x²">
+         <effect>
+            <DropShadow color="RED" height="22.56" radius="11.1675" spread="0.45" width="24.11" />
+         </effect>
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="txtValores" alignment="CENTER_RIGHT" editable="false" layoutX="23.0" layoutY="45.0" prefHeight="68.0" prefWidth="313.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow color="RED" height="24.11" radius="10.7775" spread="0.51" />
+         </effect>
+      </TextField>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Tipo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Cientifica" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Acerca de">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+         <effect>
+            <DropShadow color="RED" spread="0.54" />
+         </effect>
+      </MenuBar>
+   </children>
+</AnchorPane>
